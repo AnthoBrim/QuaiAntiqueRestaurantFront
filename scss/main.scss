@@ -8,7 +8,7 @@ html{
 }
 
 main{
-    margin-bottom: 250px;
+    margin-bottom: 270px;
 }
 footer.footer{
     padding: 15px; 
@@ -24,6 +24,7 @@ p{
 
 .hero-scene{
     position: relative;
+    margin-bottom: 15px;
     &::before{
         content:"";
         position: absolute;
@@ -82,3 +83,7 @@ p{
 
     }
 }
+
+.form-label{
+    color: $primary;
+} 
