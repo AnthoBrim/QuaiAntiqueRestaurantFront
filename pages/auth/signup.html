@@ -9,31 +9,31 @@
 
 
 <div class="container">
-    <form>
+    <form id = "formulaireInscription">
         <div class="mb-3">
             <label for="NomInput" class="form-label">Nom</label>
-            <input type="text" class="form-control" id="NomInput" placeholder="Votre Nom"> 
+            <input type="text" class="form-control" id="NomInput" placeholder="Votre Nom" name="nom"> 
             <div class="invalid-feedback">
                 *Nom requis
             </div>
         </div>
         <div class="mb-3">
             <label for="PrenomInput" class="form-label">Prénom</label>
-            <input type="text" class="form-control" id="PrenomInput" placeholder="Votre Prénom"> 
+            <input type="text" class="form-control" id="PrenomInput" placeholder="Votre Prénom" name="prenom"> 
             <div class="invalid-feedback">
                 *Prénom requis
             </div>
         </div>
         <div class="mb-3">
              <label for="EmailInput" class="form-label">Email</label>
-             <input type="email" class="form-control" id="EmailInput" placeholder="test@mail.fr" name="Email"> 
+             <input type="email" class="form-control" id="EmailInput" placeholder="test@mail.fr" name="email"> 
             <div class="invalid-feedback">
                 *Format invalide
             </div>
         </div>
         <div class="mb-3">
             <label for="PasswordInput" class="form-label">Mot de passe</label>
-            <input type="password" class="form-control" id="PasswordInput" name="Password">
+            <input type="password" class="form-control" id="PasswordInput" name="mdp">
             <div class="invalid-feedback">
                 *Votre mot de passe doit contenir : Au moins 8 caractères dont une Majuscule, une minuscule, un Chiffre, un charactères spéciale.
             </div>
@@ -52,7 +52,7 @@
 
 
         <div class="text-center">
-            <button type="submit" class="btn btn-primary" id="btn-validation-inscription">Connexion</button>
+            <button type="button" class="btn btn-primary" id="btn-validation-inscription">Inscription</button>
         </div>
     </form>
     <div class="text-center pt-3">
