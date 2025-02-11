@@ -1,7 +1,7 @@
 const galerieImage = document.getElementById("allImage")
 
 let titre = `<img src=x onerror="window.location.replace('http://localhost:3000/')">`
-let imgSource = "../Images/pork-4265997_1280.jpg"
+let imgSource = "../images/pork-4265997_1280.jpg"
 
 let monImage = getImage(titre, imgSource);
 

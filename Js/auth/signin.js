@@ -29,7 +29,7 @@ function checkCredentials(){
           return response.json();
       }
       else{
-          mailInput.classList.add("is-invalid");
+          mailInput.classList.add("is-inva lid");
           passwordInput.classList.add("is-invalid");
       }
   })
