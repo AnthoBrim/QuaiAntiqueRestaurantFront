@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ftp-anthorobintestweb.alwaysdata.net
-        username: AnthoRobinTestWeb 
+        username: anthorobintestweb 
         password: ${{ secrets.ftp_password }}
         server-dir: /www/
         protocol: sftp
