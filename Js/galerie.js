@@ -24,3 +24,4 @@ function getImage(titre, urlImage){
         </div>`;
 }
 
+

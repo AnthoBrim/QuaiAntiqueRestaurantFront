@@ -63,6 +63,7 @@ function validePassword(input){
 }
 
 
+
 function valideMail(input){
     // Définir le regex
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
